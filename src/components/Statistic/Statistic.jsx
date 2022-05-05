@@ -13,7 +13,7 @@ const Statistic = ({ title, metric }) => {
 
 Statistic.propTypes = {
   title: PropTypes.string.isRequired,
-  metric: PropTypes.number.isRequired,
+  metric: PropTypes.string.isRequired,
 };
 
 export default Statistic;

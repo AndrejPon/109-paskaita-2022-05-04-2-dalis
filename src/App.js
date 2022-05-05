@@ -10,15 +10,15 @@ const statistics = [
   },
   {
     title: 'orders',
-    metric: 16,
+    metric: '16',
   },
   {
     title: 'sessions',
-    metric: 463,
+    metric: '463',
   },
   {
     title: 'users',
-    metric: 17,
+    metric: '17',
   },
 ];
 

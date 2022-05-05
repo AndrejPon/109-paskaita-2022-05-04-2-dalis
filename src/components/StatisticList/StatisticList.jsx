@@ -8,7 +8,7 @@ const StatisticList = ({ statistics }) => {
     <S.StatisticList>
       {statistics &&
         statistics.map((stat) => (
-          <Statistic title={stat.title} metric={stat.metric} />
+          <Statistic key={stat.title} title={stat.title} metric={stat.metric} />
         ))}
     </S.StatisticList>
   );
@@ -18,7 +18,7 @@ StatisticList.propTypes = {
   statistics: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
-      metric: PropTypes.number.isRequired,
+      metric: PropTypes.string.isRequired,
     }).isRequired
   ),
 };

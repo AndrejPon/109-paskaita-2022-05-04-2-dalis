@@ -17,7 +17,7 @@ const Item = ({ image, title, salesNumber }) => {
 Item.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  salesNumber: PropTypes.number.isRequired,
+  salesNumber: PropTypes.string.isRequired,
 };
 
 export default Item;
