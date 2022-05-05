@@ -8,7 +8,7 @@ const Item = ({ image, title, salesNumber }) => {
       <S.ItemContainer>
         <S.Image src={image} alt='' />
         <S.Title>{title}</S.Title>
-        <S.salesNumber>{salesNumber}</S.salesNumber>
+        <S.SalesNumber>{salesNumber} Sales</S.SalesNumber>
       </S.ItemContainer>
     </>
   );
@@ -17,7 +17,7 @@ const Item = ({ image, title, salesNumber }) => {
 Item.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  salesNumber: PropTypes.string.isRequired,
+  salesNumber: PropTypes.number.isRequired,
 };
 
 export default Item;
