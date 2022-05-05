@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ItemContainer = styled.div`
   align-items: center;
+  background: white;
   border-radius: 20px;
   border: 1px solid lightgray;
   display: grid;
@@ -17,7 +18,7 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.h3`
-  color: green;
+  color: 1ca35e;
 `;
 
 export const SalesNumber = styled.p`
