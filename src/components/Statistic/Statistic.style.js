@@ -6,7 +6,7 @@ export const Statistic = styled.div`
   border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  /* height: 200px; */
   justify-content: center;
   margin: 0 auto;
   width: 30%;

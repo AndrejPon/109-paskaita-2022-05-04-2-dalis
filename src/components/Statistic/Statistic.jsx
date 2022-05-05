@@ -6,7 +6,7 @@ const Statistic = ({ title, metric }) => {
   return (
     <S.Statistic>
       <S.Title>{title}</S.Title>
-      <S.Metric> $ {metric}</S.Metric>
+      <S.Metric>{metric}</S.Metric>
     </S.Statistic>
   );
 };

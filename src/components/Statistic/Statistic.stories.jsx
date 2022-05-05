@@ -7,5 +7,5 @@ export default {
 };
 
 export const Default = () => (
-  <Statistic title='EARNINGS' metric='315.20'></Statistic>
+  <Statistic title='EARNINGS' metric='$ 315.20'></Statistic>
 );

@@ -24,7 +24,7 @@ ItemList.propTypes = {
       image: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       salesNumber: PropTypes.string.isRequired,
-    })
+    }).isRequired
   ),
 };
 
