@@ -1,13 +1,13 @@
 import './App.css';
-import { Title } from './components/Item/Item.style';
 import ItemList from './components/ItemList/ItemList';
 import StatisticList from './components/StatisticList/StatisticList';
+import Title from './components/Title/Title';
 import { items, statistics } from './data/data';
 
 function App() {
   return (
     <div className='App'>
-      <Title className='title'>Green Healthy Shop</Title>
+      <Title title='Green Healthy Shop' />
       <h3>Statistics</h3>
       <StatisticList statistics={statistics} />
       <h3>Product Sales</h3>
